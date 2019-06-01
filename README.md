@@ -2,12 +2,15 @@
 Right away, let me be clear: this project does *not* refer to the black-and-white bar codes, such as UPC, that you see on products in a store. For this project, a bar code consists of red, green, and blue blocks with yellow boxes at both endpoints.
 
 Examples:
-|     BarCode Sequence     | Visual |
-|-------------------|------------------|
-| RGB | ![RGB](img/RGB.png)|
-| GBBRGB | ![GBBRGB](img/GBBRGB.png)|
-| BBGRBG | ![BBRGRRGB](img/BBGRBG.png)|
-| RBBR | ![RBBR](img/RBBR.png)|
+
+
+|     BarCode Sequence     | Visual                      |
+|--------------------------|-----------------------------|
+| RGB                      | ![RGB](img/RGB.png)         |
+| GBBRGB                   | ![GBBRGB](img/GBBRGB.png)   |
+| BBGRBG                   | ![BBRGRRGB](img/BBGRBG.png) |
+| RBBR                     | ![RBBR](img/RBBR.png)       |
+
 
 This library can quickly scan a bitmap to find certain bar code sequences.
 
